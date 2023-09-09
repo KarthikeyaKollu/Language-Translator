@@ -1,0 +1,90 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D3748 ;
+    color: white;
+    height: 100vh;
+
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: #1A202C;
+    position: relative;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+
+}
+#hello{
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 15px;
+    bottom: 100px;
+    border-radius: 20px;
+    background-color:  #4A5568;
+    color :#FFFFFF ;
+}
+.disp{
+    width: 280px;
+    display: flex;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color:  #4A5568;
+    
+}
+.ip{
+    width: 250px;
+    height: 100%;
+    min-height: 30px;
+    font-size: 16px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    background-color:  #4A5568;
+    color: #FFFFFF ;
+    outline: none;
+    padding-left: 10px;
+  
+    
+    
+
+}
+.btn{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    
+}
+.options{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .lan{
+        
+        width: 40px;
+    }
+}
+h1 {
+ 
+    background: -webkit-linear-gradient(top right, #e5661c, #f5c04d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
